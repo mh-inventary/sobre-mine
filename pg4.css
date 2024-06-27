@@ -246,3 +246,74 @@ footer {
        font-size: 16px;
    }
 }
+
+/* Estilos para telas menores que 768px */
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        align-items: center;
+        background-color:#9a7252e7;
+        padding: 20px;
+     }
+
+  .logo {
+    width: 35%;
+    margin: 0 46px 0 0;
+  }
+
+  .nlinks {
+    flex-direction: column;
+    gap: 10px;
+    align-items:start;
+  }
+
+  .nlinks a {
+    font-size: 18px;
+}
+
+body > .ae > .t4 {
+    margin: 0 16px 0 16px;
+    font-size: 25px;
+}
+
+body > .ae > .ver {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.center-left {
+    max-width: 100%;
+    padding: 0 16px;
+}
+
+ul {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+
+.mj {
+    text-align: left;
+    margin-bottom: 10px;
+    max-width: 100%; 
+}
+
+footer {
+    padding: 16px;
+}
+
+.nls {
+    flex-direction:row;
+    gap: 12px;
+    align-items: center;
+}
+
+.nls a {
+    font-size: 13px;
+}
+
+footer h5 {
+    font-size: 12px;
+}
+
+
+}

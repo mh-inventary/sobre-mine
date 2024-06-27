@@ -158,12 +158,12 @@ footer {
        font-size: 25px;
    }
 
-   body > .ab > .title1 {
+   body > .af > .t5 {
        margin: 0 16px 0 16px;
        font-size: 32px;
    }
 
-   body > .ab > .intro {
+   body > .af > .svp {
        padding: 20px;
        font-size: 28px;
    }
@@ -209,12 +209,12 @@ footer {
        font-size: 22px;
    }
 
-   body > .ab > .title1 {
+   body > .af > .t5 {
        margin: 0 16px 0 16px;
        font-size: 28px;
    }
 
-   body > .ab > .intro {
+   body > .af > .svp {
        padding: 16px;
        font-size: 26px;
    }
@@ -241,4 +241,124 @@ footer {
    footer h5 {
        font-size: 16px;
    }
+
+   body > .af > .t5 {
+    margin: 0 16px 0 16px;
+    font-size: 25px;
+}
+
+body > .af > .svp {
+    padding: 32px;
+    font-size: 18px;
+}
+
+.center-left {
+    max-width: 100%;
+    padding: 0 16px;
+}
+
+footer {
+    padding: 16px;
+}
+
+.nls {
+    flex-direction:row;
+    gap: 12px;
+    align-items: center;
+}
+
+.nls a {
+    font-size: 13px;
+}
+
+footer h5 {
+    font-size: 12px;
+}
+}
+
+/* Estilos para telas menores que 768px */
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        align-items: center;
+        background-color:#9a7252e7;
+        padding: 20px;
+     }
+
+  .logo {
+    width: 35%;
+    margin: 0 46px 0 0;
+  }
+
+  .nlinks {
+    flex-direction: column;
+    gap: 10px;
+    align-items:start;
+  }
+
+  .nlinks a {
+    font-size: 18px;
+}
+
+body > .af > .t5 {
+    margin: 0 16px 0 16px;
+    font-size: 25px;
+}
+
+body > .af > .svp {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.center-left {
+    max-width: 100%;
+    padding: 0 16px;
+}
+
+.svv {
+    text-align: left;
+    margin-bottom: 10px;
+    max-width: 80%; 
+}
+
+.svv > li {
+    position:relative; 
+    padding: 0px; 
+    margin-bottom: 25px; 
+}
+
+.svv ul {
+    padding: 20px; 
+}
+
+.ima {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .ima img {
+    width: 350px; 
+    border-radius: 20px;
+    object-fit: cover;
+ }
+
+footer {
+    padding: 16px;
+}
+
+.nls {
+    flex-direction:row;
+    gap: 12px;
+    align-items: center;
+}
+
+.nls a {
+    font-size: 13px;
+}
+
+footer h5 {
+    font-size: 12px;
+}
+
 }

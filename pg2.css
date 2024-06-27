@@ -210,3 +210,62 @@
        font-size: 16px;
    }
 }
+
+/* Estilos para telas menores que 768px */
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        align-items: center;
+        background-color:#9a7252e7;
+        padding: 20px;
+     }
+
+  .logo {
+    width: 35%;
+    margin: 0 46px 0 0;
+  }
+
+  .nlinks {
+    flex-direction: column;
+    gap: 10px;
+    align-items:start;
+  }
+
+  .nlinks a {
+    font-size: 18px;
+}
+
+body > .ac > .t2 {
+    margin: 0 16px 0 16px;
+    font-size: 25px;
+}
+
+body > .ac > .mdn {
+    padding: 32px;
+    font-size: 18px;
+}
+
+.center-left {
+    max-width: 100%;
+    padding: 0 16px;
+}
+
+footer {
+    padding: 16px;
+}
+
+.nls {
+    flex-direction:row;
+    gap: 12px;
+    align-items: center;
+}
+
+.nls a {
+    font-size: 13px;
+}
+
+footer h5 {
+    font-size: 12px;
+}
+
+}
